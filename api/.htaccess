@@ -1,0 +1,88 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+#RewriteCond %{SERVER_PORT} !443
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}:443%{SERVER_URI}
+
+#***********************************************#
+# sessions										#
+#***********************************************#
+
+RewriteRule ^sessions/start/$ /methods/sessions/start.php [NC,QSA]
+RewriteRule ^sessions/start$ /methods/sessions/start.php [NC,QSA]
+
+RewriteRule ^sessions/stop/$ /methods/sessions/stop.php [NC,QSA]
+RewriteRule ^sessions/stop$ /methods/sessions/stop.php [NC,QSA]
+
+#***********************************************#
+# events										#
+#***********************************************#
+
+RewriteRule ^events/send/$ /methods/events/send.php [NC,QSA]
+RewriteRule ^events/send$ /methods/events/send.php [NC,QSA]
+
+#***********************************************#
+# auth											#
+#***********************************************#
+
+RewriteRule ^auth/request_token/$ /methods/auth/request_token.php [NC,QSA]
+RewriteRule ^auth/request_token$ /methods/auth/request_token.php [NC,QSA]
+
+#***********************************************#
+# users											#
+#***********************************************#
+
+RewriteRule ^users/add/$ /methods/users/add.php [NC,QSA]
+RewriteRule ^users/add$ /methods/users/add.php [NC,QSA]
+RewriteRule ^users/addalien/$ /methods/users/add_alien.php [NC,QSA]
+RewriteRule ^users/addalien$ /methods/users/add_alien.php [NC,QSA]
+RewriteRule ^users/get/$ /methods/users/get.php [NC,QSA]
+RewriteRule ^users/get$ /methods/users/get.php [NC,QSA]
+
+#***********************************************#
+# games											#
+#***********************************************#
+
+RewriteRule ^games/save/$ /methods/games/save.php [NC,QSA]
+RewriteRule ^games/save$ /methods/games/save.php [NC,QSA]
+RewriteRule ^games/update/$ /methods/games/update.php [NC,QSA]
+RewriteRule ^games/update$ /methods/games/update.php [NC,QSA]
+RewriteRule ^games/get/$ /methods/games/get.php [NC,QSA]
+RewriteRule ^games/get$ /methods/games/get.php [NC,QSA]
+RewriteRule ^games/list/$ /methods/games/list.php [NC,QSA]
+RewriteRule ^games/list$ /methods/games/list.php [NC,QSA]
+RewriteRule ^games/savescore/$ /methods/games/savescore.php [NC,QSA]
+RewriteRule ^games/savescore$ /methods/games/savescore.php [NC,QSA]
+RewriteRule ^games/scoreboard/$ /methods/games/scoreboard.php [NC,QSA]
+RewriteRule ^games/scoreboard$ /methods/games/scoreboard.php [NC,QSA]
+RewriteRule ^games/delete/$ /methods/games/delete.php [NC,QSA]
+RewriteRule ^games/delete$ /methods/games/delete.php [NC,QSA]
+
+#***********************************************#
+# achievements									#
+#***********************************************#
+
+RewriteRule ^achievements/grant/$ /methods/achievements/grant.php [NC,QSA]
+RewriteRule ^achievements/grant$ /methods/achievements/grant.php [NC,QSA]
+RewriteRule ^achievements/revoke/$ /methods/achievements/revoke.php [NC,QSA]
+RewriteRule ^achievements/revoke$ /methods/achievements/revoke.php [NC,QSA]
+RewriteRule ^achievements/details/$ /methods/achievements/details.php [NC,QSA]
+RewriteRule ^achievements/details$ /methods/achievements/details.php [NC,QSA]
+RewriteRule ^achievements/board/$ /methods/achievements/board.php [NC,QSA]
+RewriteRule ^achievements/board$ /methods/achievements/board.php [NC,QSA]
+RewriteRule ^achievements/user/$ /methods/achievements/user.php [NC,QSA]
+RewriteRule ^achievements/user$ /methods/achievements/user.php [NC,QSA]
+
+#***********************************************#
+# functions										#
+#***********************************************#
+RewriteRule ^functions/constant/$ /methods/functions/constant.php [NC,QSA]
+RewriteRule ^functions/constant$ /methods/functions/constant.php [NC,QSA]
+RewriteRule ^functions/execute/$ /methods/functions/execute.php [NC,QSA]
+RewriteRule ^functions/execute$ /methods/functions/execute.php [NC,QSA]
+
+#***********************************************#
+# maps											#
+#***********************************************#
+RewriteRule ^maps/track/$ /methods/maps/track.php [NC,QSA]
+RewriteRule ^maps/track$ /methods/maps/track.php [NC,QSA]

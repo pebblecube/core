@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 15:27:22 +1000</pubDate><title><![CDATA[Achievements]]></title><url><![CDATA[achievements]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Achievements]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/achievements/achievementsboard&quot;&gt;/achievements/board&lt;/a&gt;: returns a list of all users with a specified achievement&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/achievements/achievementsdetails&quot;&gt;/achievements/details&lt;/a&gt;: returns the detail of the achievement&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/achievements/achievementsgrant&quot;&gt;/achievements/grant&lt;/a&gt;: grants an achievement to a user&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/achievements/achievementsrevoke&quot;&gt;/achievements/revoke&lt;/a&gt;: revokes an achievement to a user&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/achievements/achievementsuser&quot;&gt;/achievements/user&lt;/a&gt;: returns all the achievements of a specified user&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>

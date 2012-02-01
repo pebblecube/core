@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 15:27:56 +1000</pubDate><title><![CDATA[Events]]></title><url><![CDATA[events]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Events]]></menu><menuOrder><![CDATA[4]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/events/eventssend&quot;&gt;/events/send&lt;/a&gt;: sends an event(s)&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>

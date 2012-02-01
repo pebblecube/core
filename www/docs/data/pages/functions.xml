@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 17:08:17 +1000</pubDate><title><![CDATA[Functions]]></title><url><![CDATA[functions]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Functions]]></menu><menuOrder><![CDATA[5]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/functions/constant&quot;&gt;/functions/constant&lt;/a&gt;: returns the value of the specified constant&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/functions/execute&quot;&gt;/functions/execute&lt;/a&gt;: execute the specified function&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>

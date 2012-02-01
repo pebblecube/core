@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 15:29:04 +1000</pubDate><title><![CDATA[Users]]></title><url><![CDATA[users]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Users]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/users/add&quot;&gt;/users/add&lt;/a&gt;: adds a new user to the database&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/users/addalien&quot;&gt;/users/addalien&lt;/a&gt;: adds a user using the security credentials from another authentication service&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/users/get&quot;&gt;/users/get&lt;/a&gt;: returns user&amp;rsquo;s data&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>

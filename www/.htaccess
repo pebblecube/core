@@ -1,0 +1,92 @@
+AddDefaultCharset UTF-8
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+#***********************************************#
+# Errors										#
+#***********************************************#
+ErrorDocument 404 /static_pages/errors/404.php
+ErrorDocument 403 /static_pages/errors/404.php
+ErrorDocument 500 /static_pages/errors/500.php
+RewriteRule ^404$ /static_pages/errors/404.php [NC]
+RewriteRule ^404/$ /static_pages/errors/404.php [NC]
+RewriteRule ^500$ /static_pages/errors/500.php [NC]
+RewriteRule ^500/$ /static_pages/errors/500.php [NC]
+
+RewriteRule ^privacy/$ /static_pages/privacy.php [NC]
+RewriteRule ^privacy$ /static_pages/privacy.php [NC]
+RewriteRule ^team/$ /static_pages/team.php [NC]
+RewriteRule ^team$ /static_pages/team.php [NC]
+RewriteRule ^terms/$ /static_pages/terms.php [NC]
+RewriteRule ^terms$ /static_pages/terms.php [NC]
+RewriteRule ^contact/$ /static_pages/contact.php [NC]
+RewriteRule ^contact$ /static_pages/contact.php [NC]
+
+#***********************************************#
+# devs											#
+#***********************************************#
+RewriteRule ^signin/$ /signin.php [NC]
+RewriteRule ^signin$ /signin.php [NC]
+RewriteRule ^signout/$ /signout.php [NC]
+RewriteRule ^signout$ /signout.php [NC]
+RewriteRule ^signup/$ /join.php [NC]
+RewriteRule ^signup$ /join.php [NC]
+
+RewriteRule ^devs/dashboard/$ /devs/dashboard.php [NC,QSA]
+RewriteRule ^devs/dashboard$ /devs/dashboard.php [NC,QSA]
+RewriteRule ^devs/account/$ /devs/account.php [NC,QSA]
+RewriteRule ^devs/account$ /devs/account.php [NC,QSA]
+RewriteRule ^devs/revoke/$ /devs/revoke.php [NC,QSA]
+RewriteRule ^devs/revoke$ /devs/revoke.php [NC,QSA]
+
+#***********************************************#
+# prj											#
+#***********************************************#
+RewriteRule ^prj/add/$ /prj/add_project.php [NC]
+RewriteRule ^prj/add$ /prj/add_project.php [NC]
+RewriteRule ^prj/([a-zA-Z0-9]+)/$ /prj/project.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)$ /prj/project.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/revoke/$ /prj/revoke_dev.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/revoke$ /prj/revoke_dev.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/users/$ /prj/project_users.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/users$ /prj/project_users.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/design/$ /prj/design.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/design$ /prj/design.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/design/preview/$ /prj/design_preview.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/design/preview$ /prj/design_preview.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/statssettings/$ /prj/project_stats_settings.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/statssettings$ /prj/project_stats_settings.php?_id=$1 [NC,QSA]
+
+RewriteRule ^prj/([a-zA-Z0-9]+)/functions/$ /prj/project_functions.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/functions$ /prj/project_functions.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/functions/edit/([0-9]+)/$ /prj/project_functions_edit.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/functions/edit/([0-9]+)$ /prj/project_functions_edit.php?_id=$1&index=$2 [NC,QSA]
+
+RewriteRule ^prj/([a-zA-Z0-9]+)/scoreboards/$ /prj/project_scoreboards.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/scoreboards$ /prj/project_scoreboards.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/scoreboards/edit/([0-9]+)/$ /prj/project_scoreboards_edit.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/scoreboards/edit/([0-9]+)$ /prj/project_scoreboards_edit.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/scoreboards/scores/([0-9]+)/$ /prj/project_scoreboards_scores.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/scoreboards/scores/([0-9]+)$ /prj/project_scoreboards_scores.php?_id=$1&index=$2 [NC,QSA]
+
+RewriteRule ^prj/([a-zA-Z0-9]+)/achievements/$ /prj/project_achievements.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/achievements$ /prj/project_achievements.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/achievements/edit/([0-9]+)/$ /prj/project_achievements_edit.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/achievements/edit/([0-9]+)$ /prj/project_achievements_edit.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/achievements/boards/([0-9]+)/$ /prj/project_achievements_boards.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/achievements/boards/([0-9]+)$ /prj/project_achievements_boards.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/exports/$ /stats/exports.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/exports$ /stats/exports.php?_id=$1 [NC,QSA]
+
+RewriteRule ^prj/([a-zA-Z0-9]+)/maps/$ /prj/project_maps.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/maps$ /prj/project_maps.php?_id=$1 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/maps/edit/([0-9]+)/$ /prj/project_maps_edit.php?_id=$1&index=$2 [NC,QSA]
+RewriteRule ^prj/([a-zA-Z0-9]+)/maps/edit/([0-9]+)$ /prj/project_maps_edit.php?_id=$1&index=$2 [NC,QSA]
+
+#***********************************************#
+# stats											#
+#***********************************************#
+RewriteRule ^stats/([a-zA-Z0-9]+)/$ /stats/index.php?_id=$1 [NC,QSA]
+RewriteRule ^stats/([a-zA-Z0-9]+)$ /stats/index.php?_id=$1 [NC,QSA]

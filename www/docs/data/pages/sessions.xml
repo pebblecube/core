@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 15:28:49 +1000</pubDate><title><![CDATA[Sessions]]></title><url><![CDATA[sessions]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Sessions]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/sessions/start&quot;&gt;/sessions/start&lt;/a&gt;: releases a new session key and start a game session&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/sessions/stop&quot;&gt;/sessions/stop&lt;/a&gt;: stops a game session&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>

@@ -1,0 +1,10 @@
+Options -Indexes
+Allow from all
+
+<Files *.xls>
+ForceType applicaton/octet-stream
+</Files>
+
+<Files *.csv>
+ForceType applicaton/octet-stream
+</Files>

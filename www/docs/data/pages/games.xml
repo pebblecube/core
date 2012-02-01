@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 15:28:21 +1000</pubDate><title><![CDATA[Games]]></title><url><![CDATA[games]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Games]]></menu><menuOrder><![CDATA[6]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/gamesdelete&quot;&gt;/games/delete&lt;/a&gt;: deletes a saved game file&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/gamesget&quot;&gt;/games/get&lt;/a&gt;: returns the data of a single saved game file&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/gameslist&quot;&gt;/games/list&lt;/a&gt;: list of saved games for a specific user token&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/gamessavescore&quot;&gt;/games/savescore&lt;/a&gt;: saves a user&amp;#39;s score into a specified board&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/gamesscoreboard&quot;&gt;/games/scoreboard&lt;/a&gt;: gets the top x scores from a specific scoreboard&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/gamesupdate&quot;&gt;/games/update&lt;/a&gt;: updates a saved game file by replacing it&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/save&quot;&gt;/games/save&lt;/a&gt;: creates a new saved game and release a ticket&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 19 Jul 2011 15:32:46 +1000</pubDate><title><![CDATA[Home]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/users/&quot;&gt;Users&lt;/a&gt;: project users management&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/sessions/&quot;&gt;Sessions&lt;/a&gt;: game sessions management&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/auth/&quot;&gt;Auth&lt;/a&gt;: user&amp;#39;s authentication methods&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/events/&quot;&gt;Events&lt;/a&gt;: events tracking apis&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/functions/&quot;&gt;Functions&lt;/a&gt;: project functions and constants management&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/games/&quot;&gt;Games&lt;/a&gt;: socreboards and saved games&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/docs/achievements/&quot;&gt;Achievements&lt;/a&gt;: bagdes and achievements tools&lt;/li&gt;
+&lt;/ul&gt;
+]]></content><private><![CDATA[]]></private></item>
